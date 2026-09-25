@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/emailable",
   "title": "Emailable",
   "description": "Emailable MCP — wraps the Emailable email verification API (emailable.com)",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/emailable",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-emailable",
