@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-emailable",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Emailable MCP — wraps the Emailable email verification API (emailable.com)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-emailable": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "emailable"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-emailable.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/emailable",
   "pipeworx": {
-    "sourceHash": "v1-2af4b739d812437f6148edcc8648baced9af82f95de19248fffa521a9b641d75",
-    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
+    "mode": "gateway",
+    "slug": "emailable",
+    "gatewaySlug": "emailable",
+    "sourceHash": "v1-d1744b39c0452a2d2e3d63367ed8e1594ac16199e7de2660a99c52e75f53a2b8",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
