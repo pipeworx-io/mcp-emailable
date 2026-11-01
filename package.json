@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-emailable",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Emailable MCP — wraps the Emailable email verification API (emailable.com)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "emailable",
     "gatewaySlug": "emailable",
-    "sourceHash": "v1-d1744b39c0452a2d2e3d63367ed8e1594ac16199e7de2660a99c52e75f53a2b8",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-46f00fbe9491943b0b51f1a53a898fb6f547e92b5e6e6894df4dc885f229d21d",
+    "sourceCommit": "e707a4bb6209f432984c0a83bf64b3138130db89"
   }
 }
